@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app = "myModule">
+    <head>
+        <script src = "angular.js"></script>
+        <script src = "prog2-2.js"></script>
+    </head>
+
+    <body ng-controller="myController">
+        <div >
+            {{ message}}
+        </div>
+        <div >
+            {{ message}}    <!-- controller is not applied, hence message property is not extracted -->
+           
+        </div>
+    </body>
+
+</html>
